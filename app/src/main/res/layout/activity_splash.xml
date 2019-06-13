@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".splash">
+    <ImageView
+        android:id="@+id/splashIcon"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/icon"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+
+        />
+    <TextView
+        android:id="@+id/tvAi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splashIcon"
+        android:text="Smart AI Music Player"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="40sp"
+        android:textStyle="italic|bold"
+        android:textColor="#C86602"
+
+        />
+    <ImageView
+        android:id="@+id/free"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/free"
+        android:layout_below="@+id/tvAi"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/tvshayan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powered By Shayan Ali"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#C86602"
+        android:layout_below="@id/free"
+
+        />
+
+</RelativeLayout>
